@@ -1,0 +1,468 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress iSell\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-21 23:27+0500\n"
+"PO-Revision-Date: 2012-05-21 23:28+0500\n"
+"Last-Translator: Muneeb\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell\n"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:103
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:155
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/isell_errors.php:4
+msgid "The transcaction ID is invalid."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:104
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:156
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/isell_errors.php:5
+msgid "Your payment is not yet completed yet please contact us to resolve the issue."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:105
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:157
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/isell_errors.php:6
+msgid "The product download link is expired. Please contact us"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:106
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:158
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/isell_errors.php:7
+msgid "You had exceeded the maximum number of downloads allowed for an order. Contact us to resolve this issue"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:107
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:159
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/isell_errors.php:8
+msgid "The product does not have any files"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:111
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:163
+msgid "Your {product_name} File Download - Order {txn_id}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:112
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:164
+msgid ""
+"Dear {customer_name},\n"
+"\n"
+"Thank you for your order.  You may download using the following URL:\n"
+"\n"
+"{product_download_url}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:119
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:171
+msgid "iSell Notification: New Order: {txn_id} - {customer_name} - {product_name}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:120
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:172
+msgid ""
+"You have received a new order for {product_name}\n"
+"\n"
+"To view/edit the order, visit the following address:\n"
+"\n"
+"{edit_order_link}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:207
+msgid "File successfully deleted."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:213
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:242
+msgid "You do not have sufficient permissions."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:224
+msgid "Unable to delete the file either file is deleted or does not exist also please make sure you have set the upload directory permissions compatible with this plugin. The file records for this product may get deleted."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:234
+msgid "File successfully uploaded."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:265
+msgid "Failed to move uploaded file."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:291
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:303
+msgid "Products"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:292
+msgid "Product"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:293
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:323
+msgid "Add New"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:294
+msgid "Add New Product"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:295
+msgid "Edit Product"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:296
+msgid "New Product"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:297
+msgid "All Products"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:298
+msgid "View Product"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:299
+msgid "Search Products"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:300
+msgid "No Products found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:301
+msgid "No Products found in Trash"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:321
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:333
+msgid "Orders"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:322
+msgid "Order"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:324
+msgid "Add New Order"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:325
+msgid "Edit Order"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:326
+msgid "New Order"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:327
+msgid "All Orders"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:328
+msgid "View Order"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:329
+msgid "Search Orders"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:330
+msgid "No Orders found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:331
+msgid "No Orders found in Trash"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:356
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:380
+msgid "Product Info"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:362
+msgid "File"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:368
+msgid "Buyer Info"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/start.php:374
+msgid "Payment Info"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:7
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:10
+msgid "Product updated."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:8
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:29
+msgid "Custom field updated."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:9
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:30
+msgid "Custom field deleted."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:12
+#, php-format
+msgid "Product restored to revision from %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:13
+msgid "Product created."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:14
+msgid "Product saved."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:16
+#, php-format
+msgid "Product scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:18
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:39
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:19
+msgid "Product draft updated."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:28
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:31
+msgid "Order updated."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:33
+#, php-format
+msgid "Order restored to revision from %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:34
+msgid "Order created."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:35
+msgid "Order saved."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:37
+#, php-format
+msgid "Order scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:40
+msgid "Order draft updated."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:76
+msgid "iSell Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/inc/functions.php:142
+#, php-format
+msgid "Thank you for using the iSell Plugin, Please go to the <a href=\"%1$s\">iSell settings</a> page to setup the plugin."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_buyer_info.php:2
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_payment_info.php:2
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_product_info.php:2
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_product_file.php:2
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_buyer_info.php:6
+msgid "First Name:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_buyer_info.php:12
+msgid "Last Name:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_buyer_info.php:18
+msgid "Email:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_buyer_info.php:24
+msgid "Phone:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_buyer_info.php:30
+msgid "Country:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_buyer_info.php:36
+msgid "State:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_buyer_info.php:42
+msgid "City:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_buyer_info.php:48
+msgid "Zip code:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_payment_info.php:7
+msgid "Status:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_payment_info.php:10
+msgid "Pending"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_payment_info.php:11
+msgid "Completed"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_payment_info.php:16
+msgid "Amount Paid:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_payment_info.php:22
+msgid "Transcation ID:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_product_info.php:6
+msgid "ID:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_product_info.php:12
+msgid "Name:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_product_info.php:18
+msgid "Downloads:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_product_info.php:24
+msgid "Download URL:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_order_product_info.php:30
+msgid "Link Status:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_product_file.php:8
+msgid "File:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_product_file.php:12
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_product_file.php:14
+msgid "Select File"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_product_file.php:16
+msgid "Start Upload"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_product_file.php:19
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_product_file.php:21
+msgid "Delete File"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_product_file.php:25
+msgid "Click on select file to select the file you wish to upload and then click on start upload button."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_product_file.php:30
+msgid "File Name:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_product_file.php:33
+msgid "File will be downloaded on computers with this name. Example: filename.extension"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_product_info.php:9
+msgid "Product Name:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_product_info.php:16
+msgid "Product Price:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_product_info.php:19
+msgid "Enter only a numeric value"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_product_info.php:23
+msgid "Buy Now Url:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/metabox_product_info.php:26
+msgid "Use this link in your call to actions"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/settings_page.php:2
+msgid "Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/settings_page.php:10
+msgid "PayPal Email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/settings_page.php:20
+msgid "PayPal Environment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/settings_page.php:23
+msgid "Sandbox"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/settings_page.php:24
+msgid "Production"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/settings_page.php:27
+msgid "It's highly recommended you remember to set this option to Production after testing."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/settings_page.php:33
+msgid "Currency"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/settings_page.php:45
+msgid "Directory"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/settings_page.php:49
+msgid "Please make sure if this directory does not exist in the root folder of your site create it and also assign it only writeable and readable permissions otherwise you won't be able to attach files to products nor customers who purchase your product would be able to download the file."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/settings_page.php:55
+msgid "Max Downloads"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/settings_page.php:59
+msgid "Your customers cannot download the product file more then max downloads."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/settings_page.php:65
+msgid "Error Page"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/settings_page.php:69
+msgid "Select page"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/settings_page.php:82
+msgid "Make sure you also include this shortcode on the page"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-isell/views/settings_page.php:93
+msgid "Save Changes"
+msgstr ""
+

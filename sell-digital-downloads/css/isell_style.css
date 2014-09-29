@@ -1,0 +1,59 @@
+.isell_clear_float{
+    clear: both;
+}
+
+/* Style 1 CSS */
+.isell_style1{
+    float: left;
+    border: 1px solid #ccc;
+    margin: 5px 10px 5px 0;
+    width: 180px;
+}
+.isell_style1_wrap{
+    margin: 15px;
+}
+.isell_style1_thumb {
+    width: 150px;
+    height: 120px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.isell_style1_thumb img{
+    max-width: 150px;
+}
+
+.isell_style1_price{
+    color: green;
+    display: block;
+    font-weight: 400;
+    margin-bottom: .5em;
+}
+.isell_style1_name{
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.isell_style1 a.button{
+    font-size: 100%;
+    margin: 0;
+    line-height: 1em;
+    cursor: pointer;
+    position: relative;
+    font-family: inherit;
+    overflow: visible;
+    padding: 6px 10px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 2px;
+    color: #5e5e5e;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border: 1px solid #c8bfc6;
+    background: #f7f6f7;
+    display: inline-block;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.075),inset 0 1px 0 rgba(255,255,255,.3),0 1px 2px rgba(0,0,0,.1);
+}
+/* style 1 CSS */
+

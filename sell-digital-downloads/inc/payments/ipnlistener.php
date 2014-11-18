@@ -92,30 +92,25 @@ class IpnListener {
             $this->post_uri = $uri;
         }
         
-        $ch = curl_init();
-        
-        curl_setopt($ch, CURLOPT_URL, $uri);
-        curl_setopt($ch, CURLOPT_POST, true);
+        $ch = curl_init($uri);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $encoded_data);
-        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, $this->follow_location);
-        curl_setopt($ch, CURLOPT_TIMEOUT, $this->timeout);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_HEADER, true);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-        
-        if ($this->force_ssl_v3) {
-            curl_setopt($ch, CURLOPT_SSLVERSION, 3);
-        }
-        
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array('Connection: Close'));
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);      
         $this->response = curl_exec($ch);
         $this->response_status = strval(curl_getinfo($ch, CURLINFO_HTTP_CODE));
-        
-        if ($this->response === false || $this->response_status == '0') {
+        // Check if any error occurred
+        if(!$this->response)
+        {
             $errno = curl_errno($ch);
             $errstr = curl_error($ch);
+            curl_close($ch);
             wp_isell_write_debug("cURL error: [".$errno."] ".$errstr, false);
             throw new Exception("cURL error: [$errno] $errstr");
+        }
+        else{
+            curl_close($ch);
         }
     }
     
@@ -151,6 +146,7 @@ class IpnListener {
 
         $header = "POST /cgi-bin/webscr HTTP/1.1\r\n";
         $header .= "Host: ".$this->getPaypalHost()."\r\n";
+        $header .= "User-Agent: Sell Digital Downloads Plugin\r\n";
         $header .= "Content-Type: application/x-www-form-urlencoded\r\n";
         $header .= "Content-Length: ".strlen($encoded_data)."\r\n";
         $header .= "Connection: Close\r\n\r\n";

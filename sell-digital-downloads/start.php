@@ -3,7 +3,7 @@
 Plugin Name: WordPress iSell - Sell Digital Downloads
 Description: All in one plugin to sell your digital products and manage your orders from WordPress.
 Author: wpecommerce
-Version: 2.2.0
+Version: 2.2.1
 Author URI: https://wp-ecommerce.net/
 Plugin URI: https://wp-ecommerce.net/wordpress-isell-easily-sell-digital-downloads-from-your-wordpress-site-1916
 */
@@ -123,7 +123,7 @@ Class WordPress_iSell{
 	}
 	function constants(){
 		//isell version
-		define('ISELL_VERSION','2.2.0');
+		define('ISELL_VERSION','2.2.1');
                 define('ISELL_PLUGIN_URL', plugins_url('',__FILE__));
 		//error_codes
 		define('ISELL_INVALID_TXN_ID',1);
@@ -814,8 +814,8 @@ Class WordPress_iSell{
 						    'item_number' => (int)$product_id,
 						    'notify_url' => $notify_url,
 						    'return' => $thanks_page,
-						    'rm' => 2
-
+						    'rm' => 2,
+                                                    'bn' => 'TipsandTricks_SP'
 						);
 					$parameters = apply_filters('isell_payment_gateway_parameters', $parameters);
 

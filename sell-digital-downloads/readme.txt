@@ -1,10 +1,10 @@
 === Sell Digital Downloads ===
 Contributors: wpecommerce
 Donate link: https://wp-ecommerce.net/wordpress-isell-easily-sell-digital-downloads-from-your-wordpress-site-1916
-Tags: sell digital products,sell downloads,sell download,sell products,ecommerce,commerce,paypal,paypal ipn,orders,sell photos,sell ebook,selling,e-downloads,e-store,eshop,download,downloads,digital downloads,e-commerce,wp ecommerce,sell videos
+Tags: sell digital products, sell downloads, sell download, sell products, ecommerce, commerce, paypal, paypal ipn, orders, sell photos, sell ebook, selling, e-downloads, e-store, eshop, download, downloads, digital downloads, e-commerce, wp ecommerce, sell videos
 Requires at least: 3.0
-Tested up to: 4.0
-Stable tag: 2.2.0
+Tested up to: 4.1
+Stable tag: 2.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,9 @@ Yes
 For screenshots please visit the [WordPress Sell Digital Downloads](https://wp-ecommerce.net/wordpress-isell-easily-sell-digital-downloads-from-your-wordpress-site-1916) plugin page
 
 == Changelog ==
+
+= 2.2.1 =
+* Updated the button code to send additional parameters to PayPal.
 
 = 2.2.0 =
 * Added some tweaks to the plugin to fix the PayPal IPN validation issue.

@@ -28,7 +28,7 @@
 <td>
 	<input name="paypal_email" type="email" id="paypal_email" value="<?php echo esc_html($options['paypal']['email']) ?>" class="regular-text">
 	<p class="description">
-		<?php //echo __('This email address will also be used as "From:" address in notification emails.','isell'); ?>
+            <?php echo __('Your PayPal Email Address.','isell'); /*This email address will also be used as "From:" address in the notification email*/?>		
 	</p>
 </td>
 </tr>
